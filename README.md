@@ -1,4 +1,5 @@
-# FixFirst
+# Smart_City: FixFirst
+Streamlit dashboard for prioritizing municipal incident backlogs and reviewing traffic peak hours, with transparent scoring and honest validation. Uses local CSV data; no LLMs or APIs.
 FixFirst is a local decision-support app for reviewing unresolved municipal workload.
 It uses synthetic educational data and the supplied CSV files; it is not an official city tool.
 It ranks locations by current backlog and presents validation results without claiming predictive evidence.
