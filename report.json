@@ -1,0 +1,42 @@
+{
+  "capture_at_k": {
+    "base_cum": 0.04726088944019347,
+    "base_last": 0.04949303229733633,
+    "glm": 0.060796967346694306,
+    "gbm": 0.04349776978885257,
+    "random (expected)": 0.05
+  },
+  "k": 50,
+  "n_locations": 1000,
+  "windows": 12,
+  "window_days": 30,
+  "train_windows": "0-5",
+  "test_windows": "7-10",
+  "mean_abs_error": {
+    "glm": 0.3334711922770373,
+    "gbm": 0.32552528037818673,
+    "always predict train mean": 0.33415466666666654
+  },
+  "serious_threshold": 3,
+  "data_issues": {
+    "incidents: duplicate rows": 0,
+    "incidents: missing timestamp": 0,
+    "incidents: location_id not in locations.csv": 0,
+    "complaints: duplicate rows": 0,
+    "complaints: missing timestamp": 0,
+    "complaints: location_id not in locations.csv": 0,
+    "locations: columns with missing values": {},
+    "incidents: flagged unresolved": 2874,
+    "complaints: not yet resolved (open/assigned/in progress)": 3438
+  },
+  "silent_locations_flagged": 0,
+  "chance_tests": {
+    "incident_count_variance_to_mean": 1.058058058058058,
+    "complaint_count_variance_to_mean": 1.0252752752752752,
+    "corr_first_half_vs_second_half_incidents": 0.009937136247155462,
+    "corr_incidents_vs_complaints_per_location": -0.014398568766794533
+  },
+  "locations_well_above_typical": 34,
+  "forecast_validated": false,
+  "silence_flag_supported": false
+}
